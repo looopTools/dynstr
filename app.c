@@ -16,9 +16,9 @@ int main(void){
   printf("Y/N: %d\n", doesStringContainChar(s3, 'H'));
   printf("Y/N: %d\n", doesStringContainChar(s3, 'z'));
 
-  printf("Index of H: %d\n", posisitonOfChar(s3, 'H'));
-  printf("Index of o: %d\n", posisitonOfChar(s3, 'o'));
-  printf("Index of z: %d\n", posisitonOfChar(s3, 'z'));
+  printf("Index of H: %d\n", positionOfChar(s3, 'H'));
+  printf("Index of o: %d\n", positionOfChar(s3, 'o'));
+  printf("Index of z: %d\n", positionOfChar(s3, 'z'));
 
   return 0;
 }

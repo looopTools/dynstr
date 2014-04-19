@@ -4,4 +4,4 @@ char* addCharToString(char*, char);
 
 int doesStringContainChar(char *, char);
 
-int posisitonOfChar(char*, char);
+int positionOfChar(char*, char);
