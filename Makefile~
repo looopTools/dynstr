@@ -1,0 +1,8 @@
+all: dynstr main make_exec 
+
+make_exec:
+	gcc app.c dynstr.o
+main: 
+	gcc -Wall -O -S -c app.c
+dynstr:
+	gcc -Wall -O -S -c dynstr.c

@@ -1,0 +1,6 @@
+#include 'dynstr.h'
+#include <stdio.h>
+
+char* concatestrings(char* s1, char* s2){
+  
+}
