@@ -43,7 +43,7 @@ int doesStringContainChar(char* s1, char c){
   return 0;
 }
 
-int posisitonOfChar(char* s1, char c){
+int positionOfChar(char* s1, char c){
   int i;
   for(i = 0; i < strlen(s1); i++){
     if((char) s1[i] == c){
