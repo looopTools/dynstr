@@ -106,3 +106,9 @@ int compare_strings(char* s1, char* s2){
   }
 
 }
+
+void swap_chars(char* s1, int x, int y){
+  char c = *(s1+x);
+  *(s1+x) = *(s1+y);
+  *(s1+y) = c;
+}

@@ -21,3 +21,5 @@ int positionOfChar(char*, char);
 char* getSubstring(char*, int, int);
 
 int compare_strings(char* s1, char* s2);
+
+void swap_chars(char*, int, int);
