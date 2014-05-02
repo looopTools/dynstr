@@ -34,11 +34,17 @@ printf("Compare strings %s and %s result: %d\n", "Hello", "Hallo", compare_strin
   printf("Index of H: %d\n", positionOfChar(s3, 'H'));
   printf("Index of o: %d\n", positionOfChar(s3, 'o'));
   printf("Index of z: %d\n", positionOfChar(s3, 'z'));
-  printf("Substring 2 to 7: %s\n", getSubstring(s3, 2, 7));
 
-  s1 = "MUHAHAHA";
-  s2 = "MUHAHAHA";
-  swap_chars(s2, 2, 7);
-  printf("SWAP u and a: %s to %s", s1, s2);
+
+   printf("Substring 2 to 7: %s\n", getSubstring(s3, 2, 7));
+ 
+
+ 
+  char* s6 = "MUHAHAHA";
+ 
+  char* s5 = "MUHAHAHA";
+  swap_chars(s6, 2, 7);
+  printf("SWAP u and a: %s to %s\n", s5, s6); 
+
   return 0;
 }
