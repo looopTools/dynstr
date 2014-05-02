@@ -105,15 +105,3 @@ void swap_chars(char* s1, int x, int y){
   s1[y] = tmp;
   printf("%c\n", tmp);
 }
-/*void swap_chars(char* s1, int x, int y){
-  printf("John the 1");
-   char c = s1[x];
-  printf("John the 2\n");
-  
-  printf("c[%d]: %c and c[%d]: %c\n", x, s1[x], y, s1[y]);
-  s1[x] = s1[y];
-  
-  printf("John the 3");
-  s1[y] = c;
-}
-*/
