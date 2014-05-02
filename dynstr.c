@@ -110,6 +110,7 @@ int compare_strings(char* s1, char* s2){
 void swap_chars(char* s1, int x, int y){
   char tmp = s1[x];
   s1[x]= s1[y];
+  s1[y] = tmp;
   printf("%c\n", tmp);
 }
 /*void swap_chars(char* s1, int x, int y){
