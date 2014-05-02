@@ -8,7 +8,8 @@ int main(void){
   char* s1 = "Hello ";
   char* s2 = "World!!!";
   char* s3 = concatestrings(s1, s2);
-
+  printf("%s\n", addCharToString(s1, 'j'));
+  /*
   printf("%s\n", s3);
 
   printf("Compare strings %s and %s result: %d\n", s1, s2, compare_strings(s1, s2));
@@ -50,6 +51,6 @@ printf("Compare strings %s and %s result: %d\n", "Hello", "Hallo", compare_strin
   char* s5 = "MUHAHAHA";
   swap_chars(s6, 2, 3);
   printf("SWAP u and a: %s to %s\n", s5, s6); 
-
+  */
   return 0;
 }

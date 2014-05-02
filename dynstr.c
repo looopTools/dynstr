@@ -25,14 +25,9 @@ char* concatestrings(char* s1, char* s2){
 
 char* addCharToString(char* s1, char c){
   char* result = malloc(strlen(s1) + 1 + 1);
-  int i = 0, j;
-  for(j = 0; j < strlen(s1); j++){
-    result[i] = s1[j];
-    i++;
-  }
-  result[i] = c;
-  i++;
-  result[i] = '\0';
+  memcpy(result, s1, strlen(s1));
+  result[strlen(s1)] = c;
+  result[strlen(s1)+1] = '\0';
   return result;
 }
 
