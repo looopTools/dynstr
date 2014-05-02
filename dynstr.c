@@ -17,17 +17,9 @@ You should have received a copy of the GNU General Public License along with dyn
 
 char* concatestrings(char* s1, char* s2){
   char* result = malloc(strlen(s1) + strlen(s2) + 1);
-  int i = 0; 
-  int j; 
-  for(j = 0; j < strlen(s1); j++){
-    result[i] = s1[j];
-    i++;
-  }
-  for(j = 0; j < strlen(s2); j++){
-    result[i] = s2[j];
-    i++;
-  }
-  result[i] = '\0';
+  memcpy(result, s1, strlen(s1));
+  memcpy(result+strlen(s1), s2, strlen(s2) + 1);
+  result[strlen(s1) + strlen(s2) + 1] = '\0';
   return result;
 }
 
@@ -109,7 +101,7 @@ int compare_strings(char* s1, char* s2){
 
 void swap_chars(char* s1, int x, int y){
   char tmp = s1[x];
-  s1[x]= s1[y];
+  s1[x] = s1[y];
   s1[y] = tmp;
   printf("%c\n", tmp);
 }
