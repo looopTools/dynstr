@@ -1,0 +1,5 @@
+make && 
+ar rcs libdynstr.a dynstr.o &&
+chmod +644 dynstr.h libdynstr.a && 
+cp dynstr.h /usr/local/include && 
+cp libdynstr.a /usr/local/lib
