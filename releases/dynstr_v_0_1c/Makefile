@@ -1,2 +1,2 @@
 dynstr:
-	gcc -g -pedantic -Wall -O -c dynstr.c
+	gcc -g -pedantic -Wall -O -c -Werror -fpic  dynstr.c

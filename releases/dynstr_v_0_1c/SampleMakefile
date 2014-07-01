@@ -1,0 +1,2 @@
+all:
+	gcc -o Demo -g -pedantic -Wall -O Demo.c -I /usr/local/include/ -L /usr/local/lib -l dynstr 
