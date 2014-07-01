@@ -10,7 +10,10 @@ dynstr is distributed in the hope that it will be useful, but WITHOUT ANY WARRAN
 You should have received a copy of the GNU General Public License along with dynstr. If not, see http://www.gnu.org/licenses/.
 */
 
+/*dynstr libraries*/
 #include "dynstr.h"
+
+/*standard libraries*/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

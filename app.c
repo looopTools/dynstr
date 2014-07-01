@@ -1,14 +1,18 @@
+/*dynstr libraryies*/
+#include "dynstr.h"
+/*standard libraryies*/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "dynstr.h"
+
 
 int main(void){
   
-  char* s1 = "Hello ";
-  char* s2 = "World!!!";
+  char* s1 = "Hello ";/*Not okay in all compilers*/
+  char* s2 = "World!!!";/*Not okay in all compilers*/
   char* s3 = concatestrings(s1, s2);
-  printf("%s\n", addCharToString(s1, 'j'));
+  printf("s1 + j: %s\n", addCharToString(s1, 'j'));
+  printf("s3: %s\n", s3);
   /*
   printf("%s\n", s3);
 
