@@ -13,6 +13,8 @@ int main(void){
   char* s3 = concatestrings(s1, s2);
   printf("s1 + j: %s\n", addCharToString(s1, 'j'));
   printf("s3: %s\n", s3);
+  swap_chars(s3, 0, 4);
+  printf("Swqaped s3: %s\n", s3);
   /*
   printf("%s\n", s3);
 
